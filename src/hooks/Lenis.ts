@@ -1,5 +1,5 @@
 // src/hooks/useLenis.ts
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import Lenis from "lenis";
 
 export const lenisInstance = { current: null as Lenis | null };
