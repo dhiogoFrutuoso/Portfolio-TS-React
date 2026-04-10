@@ -42,7 +42,7 @@ function App() {
         clickables={[
           "a",
           "button",
-          ".pill", // Seus links da PillNav
+          ".pill", 
           "input",
           "select",
           "textarea",

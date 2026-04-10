@@ -2,7 +2,7 @@
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 999;
+  z-index: 50;
   display: flex;
   pointer-events: none;
   width: 100%;
