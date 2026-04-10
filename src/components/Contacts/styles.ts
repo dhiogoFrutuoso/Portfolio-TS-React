@@ -7,6 +7,10 @@ export const container = styled.footer`
   align-items: center;
   justify-content: center;
   min-height: 300px;
+  width: 100%;
+  margin-bottom: 0;
+  position: relative; 
+  overflow: hidden; 
 
   @media (max-width: 500px) {
     padding: 2rem 1.5rem;

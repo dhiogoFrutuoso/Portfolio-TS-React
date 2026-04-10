@@ -12,8 +12,10 @@ export const GlobalStyles = createGlobalStyle`
     scroll-behavior: smooth;
   }
 
-  html,
-  body {
+  body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
     overflow-x: hidden;
   }
 
@@ -31,11 +33,11 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #000000;
+    background-color: black;
   }
 
   main {
-    background-color: rgb(0, 0, 0);
+    background-color: transparent;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
